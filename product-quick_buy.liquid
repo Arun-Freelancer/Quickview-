@@ -1,0 +1,28 @@
+{{ 'product-quick_buy.css' | asset_url | stylesheet_tag }}
+<div class="product-quick_buy--custom ">
+  <div class="quick_buy--modal loading" id="quick_buy--modal">
+    <div class="quick_buy--modal-wrapper">
+      <div class="quick_buy--title-wrapper">
+        <h3 class="quick_buy--heading">Wählen Sie Ihre Größe und Farbe</h3>
+        <button class="close-modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+            <g clip-path="url(#clip0_1083_9577)">
+            <path d="M15 0L1 14M15 14L1 0" stroke="black" stroke-width="1.5"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_1083_9577">
+            <rect width="16" height="14" fill="white"/>
+            </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+
+      <div
+        class="quick_buy--product_popup"
+      ></div>
+
+      <div class="loader"></div>
+    </div>
+  </div>
+</div>
